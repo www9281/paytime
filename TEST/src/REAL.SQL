@@ -26,7 +26,7 @@ IS
         NOT_USABLE_PRMT_DT EXCEPTION;
         
         v_count NUMBER; -- 프로모션 유무확인
-        NOT_EXISTS_PROMOTION EXCEPTION; -- 프로모션 정보가 없습니다.
+        NOT_EXISTS_PROMOTION EXCEPTION; -- 프로모션 정보가 없습니다
 BEGIN  
 
     FOR CUR IN (
